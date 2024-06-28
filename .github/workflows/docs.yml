@@ -17,7 +17,8 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@1.0.0
     - name: Build docs
-      run: cd docs
+      run: mkdir docs
+        && cd docs
         && make html
         && cd _build/html
         && touch .nojekyll
