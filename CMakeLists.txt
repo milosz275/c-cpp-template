@@ -25,9 +25,40 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 
 add_compile_options(-O2 -g3
     -Wall
+    -Wno-unused-result
     -Wno-format
     -Wno-unused-function
+    -Wno-maybe-uninitialized
     -Werror
 )
+
+# GCC
+if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    add_compile_options(-O2 -g3
+        -Wall
+        -Wno-unused-result
+        -Wno-format
+        -Wno-unused-function
+        -Wno-maybe-uninitialized
+        -Werror
+    )
+endif()
+
+# Clang
+if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+    add_compile_options(-O2 -g3
+        -Wall
+        -Wno-unused-result
+        -Wno-format
+        -Werror
+    )
+endif()
+
+# Microsoft Visual C++
+if(MSVC)
+    add_compile_options(/W4
+        /WX
+    )
+endif()
 
 add_subdirectory(project-name/src)
