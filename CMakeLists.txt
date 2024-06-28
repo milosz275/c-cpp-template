@@ -25,7 +25,6 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 
 add_compile_options(-O2 -g3
     -Wall
-    -Wno-unused-result
     -Wno-format
     -Wno-unused-function
     -Wno-maybe-uninitialized
