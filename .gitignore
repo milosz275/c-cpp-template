@@ -34,10 +34,6 @@
 # Build files
 build/
 bin/
-.DS_Store
-_build/
-_static/
-_templates/
 
 # CMake
 CMakeFiles/
