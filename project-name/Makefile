@@ -68,6 +68,7 @@ depend: $(CXXSRCS)
 clean:
 	$(RM) build/src/*.o *~ $(MAIN)
 	$(RM) build/bin/$(MAIN)
+	$(RM) build/lib/*.a
 
 # Include dependency files
 -include $(SRCS:.c=.d)

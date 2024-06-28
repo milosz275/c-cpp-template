@@ -4,7 +4,8 @@ message("CMAKE_PROJECT_VERSION = ${CMAKE_PROJECT_VERSION}")
 set(PROGRAM_NAME projectname)
 
 add_executable(${PROGRAM_NAME}
-    main.cpp
+    main.c
+    # main.cpp
 )
 
 target_link_libraries(${PROGRAM_NAME}
