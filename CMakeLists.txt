@@ -27,7 +27,6 @@ add_compile_options(-O2 -g3
     -Wall
     -Wno-format
     -Wno-unused-function
-    -Wno-maybe-uninitialized
     -Werror
 )
 
