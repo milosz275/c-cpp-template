@@ -23,14 +23,14 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/project-name/include
 )
 
-add_compile_options(-O2 -g3
-    -Wall
-    -Wno-unused-result
-    -Wno-format
-    -Wno-unused-function
-    -Wno-maybe-uninitialized
-    -Werror
-)
+# add_compile_options(-O2 -g3
+#     -Wall
+#     -Wno-unused-result
+#     -Wno-format
+#     -Wno-unused-function
+#     -Wno-maybe-uninitialized
+#     -Werror
+# )
 
 # GCC
 if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
