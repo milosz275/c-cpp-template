@@ -34,3 +34,10 @@
 # Build files
 build/
 bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Documentation
+docs/
