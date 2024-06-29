@@ -31,12 +31,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Install Doxygen and Doxygen Awesome
-        run: sudo apt-get update && \
-          sudo apt-get install -y doxygen && \
-          git clone https://github.com/jothepro/doxygen-awesome-css.git && \
-          cd doxygen-awesome-css && \
+      
+      - name: Install Doxygen
+        run: sudo apt-get update && sudo apt-get install -y doxygen
+      
+      - name: Install doxygen-awesome-css
+        run: |
+          git clone https://github.com/jothepro/doxygen-awesome-css.git
+          cd doxygen-awesome-css
           make install
 
       - name: Run Doxygen
