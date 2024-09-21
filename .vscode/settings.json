@@ -1,6 +1,22 @@
 {
+    "cSpell.language": "en,pl",
     "cSpell.words": [
         "codespaces",
-        "Doxygen"
-    ]
+        "Doxygen",
+        "Doxyfile"
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.rulers": [
+        200
+    ],
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 200,
+    "makefile.configureOnOpen": true,
 }
