@@ -38,3 +38,6 @@ bin/
 # CMake
 CMakeFiles/
 CMakeCache.txt
+
+# Backup
+*.bak
