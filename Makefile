@@ -1,5 +1,4 @@
-SUBDIRS := $(filter-out build/ docs/, $(wildcard */))
-
+SUBDIRS := $(filter-out assets/ build/ docs/, $(wildcard */))
 
 all: $(SUBDIRS)
 $(SUBDIRS):
