@@ -10,6 +10,16 @@
 
 This is a template for C/C++ projects. It includes a Makefile for building either C or C++, a directory structure for organizing the source code, and a README.md file for documenting the project.
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Build](#build)
+- [Adjustments](#adjustments)
+  - [Adding new directories](#adding-new-directories)
+  - [Choosing C/C++](#choosing-cc)
+  - [Doxygen Docs](#doxygen-docs)
+- [License](#license)
+
 ## Getting Started
 
 To use this template click "Use this template" and create a new repository or open the template in a codespaces [or use this template here](https://github.com/new?template_name=c-cpp-template&template_owner=milosz275).
