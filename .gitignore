@@ -41,3 +41,6 @@ CMakeCache.txt
 
 # Backup
 *.bak
+
+# Other
+.notes/
