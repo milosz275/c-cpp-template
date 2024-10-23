@@ -33,6 +33,8 @@ After the repository is recreated, please modify repo settings in order to GitHu
 
 ![github pages](assets/pages-settings.png)
 
+CodeQL might not work for private repositories. If you want to use it, you need to enable it in the repository settings, else remove the workflow.
+
 ## Build
 
 Repository comes ready with out-of-the-box options for Makefile as well as CMake. Feel free to remove one that you won't need.
