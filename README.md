@@ -4,7 +4,7 @@
 [![CodeQL](https://github.com/milosz275/c-cpp-template/actions/workflows/codeql.yml/badge.svg)](https://github.com/milosz275/c-cpp-template/actions/workflows/codeql.yml)
 [![CMake on multiple platforms](https://github.com/milosz275/c-cpp-template/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/milosz275/c-cpp-template/actions/workflows/cmake-multi-platform.yml)
 [![Doxygen Pages](https://github.com/milosz275/c-cpp-template/actions/workflows/doxygen-pages.yml/badge.svg)](https://github.com/milosz275/c-cpp-template/actions/workflows/doxygen-pages.yml)
-[![License](https://img.shields.io/github/license/milosz275/c-cpp-template)](LICENSE)
+[![License](https://img.shields.io/github/license/milosz275/c-cpp-template)](/LICENSE)
 
 ![Logo](assets/logo.png)
 
