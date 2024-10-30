@@ -10,6 +10,9 @@
 
 This is a template for C/C++ projects. It includes a Makefile for building either C or C++, a directory structure for organizing the source code, and a README.md file for documenting the project.
 
+- [GitHub repository](https://github.com/milosz275/c-cpp-template)
+- [Doxygen documentation](https://milosz275.github.io/c-cpp-template/)
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
